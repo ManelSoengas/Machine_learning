@@ -49,7 +49,7 @@ new_sample = np.array([[5.0, 3.4, 1.5, 0.2]])
 probabilities = model.predict_proba(new_sample)[0]
 predicted_class = np.argmax(probabilities)
 ```
-Para finaliza se imprime el resulatdo de la predicción así
+Para finalizar se imprime el resultado de la predicción así
 como la precisión.
 ```
 # Imprimir el resultado de la predicción
